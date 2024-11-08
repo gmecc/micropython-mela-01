@@ -22,7 +22,8 @@ PSRAM 8 MB частота 240 MHz.
 Нумерация контактов ``MELA-board`` не соответствует нумерации контроллера
 ESP32. Для установления необходимых номеров контактов приведена таблица пинов.
 
-## Прикладная библиотека ``mela``
+Прикладная библиотека ``mela``
+------------------------------
 
 Прикладная библиотека ``mela`` предназначена для адаптации известных классов
 ``micropython`` под конфигурацию ``MELA-board``. При создании реальных проектов
@@ -30,7 +31,8 @@ ESP32. Для установления необходимых номеров к�
 библиотекой ``mela``. Однако, типовые библиотеки ``micropython`` также можно
 использовать при внимательной настройке параметров.
 
-## Technical specifications
+Technical specifications
+------------------------
 
 The datasheets and other reference material for ESP32-S3 chip are available
 from the vendor site: https://www.espressif.com/en/products/socs/esp32-s3.
@@ -72,7 +74,8 @@ https://github.com/gmecc/mela/blob/main/images/board-env.jpg
 MicroPython is implemented on top of the ESP-IDF, Espressif’s development framework for the ESP32.
 This is a FreeRTOS based system. See the ESP-IDF Programming Guide for details.
 
-## GPIO table
+GPIO table
+----------
 
 .. csv-table::
     :header: "Pin", "GPIO", "BOARD", "Type", "Function"
